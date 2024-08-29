@@ -594,6 +594,10 @@ footer {
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 768px) {
+  .featured-name {
+    font-size: 30px;
+  }
+
   .nav-button {
     display: none;
   }
