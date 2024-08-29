@@ -152,7 +152,7 @@ nav {
 
 /* ----- WRAPPER DESIGN ----- */
 .wrapper {
-  /* padding-inline: 5vw; */
+  padding-inline: 5vw;
 }
 
 /* ----- FEATURED BOX ----- */
@@ -314,6 +314,7 @@ h3 {
   position: relative;
   display: flex;
   align-items: center;
+  justify-items: center;
   flex-direction: column;
   padding-block: 30px 70px;
   padding-inline: 20px;
@@ -592,7 +593,7 @@ footer {
 }
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
   .nav-button {
     display: none;
   }
@@ -675,7 +676,7 @@ footer {
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 480px) {
   .featured-name {
     font-size: 40px;
   }
