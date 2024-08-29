@@ -654,8 +654,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     gap: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
   }
   .col {
     display: flex;
@@ -678,7 +678,7 @@ footer {
 
 @media only screen and (max-width: 480px) {
   .featured-name {
-    font-size: 40px;
+    font-size: 25px;
   }
   .project-box {
     width: 100%;
@@ -688,5 +688,10 @@ footer {
   }
   .input-field {
     width: 100%;
+  }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
   }
 }
