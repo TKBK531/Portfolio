@@ -126,7 +126,7 @@ ${message}
 ---
 Sent from your portfolio website`;
 
-    const mailtoURL = `mailto:kasthuriraman531@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
+    const mailtoURL = `mailto:tharindukasthurisinghe@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
 
     // Open default email client
     window.location.href = mailtoURL;
